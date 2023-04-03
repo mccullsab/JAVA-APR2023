@@ -1,5 +1,5 @@
 import java.util.ArrayList;
-import java.lang.reflect.Method;
+
 
 public class VoiceMessageTest{
     public static void main(String[] args){
@@ -43,18 +43,6 @@ public class VoiceMessageTest{
         System.out.println(reminders);
 
         newBot.printArray(reminders);
-
-        Class<VoiceMessageUtil> cls = VoiceMessageUtil.class;
-        Method[] methods = cls.getDeclaredMethods();
-        for (Method method : methods) {
-            if (java.lang.reflect.Modifier.isStatic(method.getModifiers())) {
-                // This is a static method
-                System.out.println("Static method: " + method.getName());
-            } else {
-                // This is an instance method
-                System.out.println("Instance method: " + method.getName());
-            }
-        }
 
     }
 }
