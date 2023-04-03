@@ -5,6 +5,10 @@
 2. Pull the repo when you want to get the latest update of the code
 
 ## Extra Resources
+1. W1D1: [Listing all methods in a class](#fundamentals--listing-all-the-methods-in-a-class)
+2. W1D1: [Using .map in Java](#fundamentals--map-in-java)
+
+
 ### Fundamentals : Listing all the methods in a class
 1. Import the method at the top
 ```import java.lang.reflect.Method;```
