@@ -18,13 +18,15 @@ public class VoiceMessageUtil{
         return "Hi for "+ count + " times";
     }
 
-    // 7. for-loop
+    // 7. for-loop 
+    // enhanced for-loop
     public void printArray(String[] arr){
         for(String element : arr){
             System.out.println(element);
         }
     }
 
+    // traditional for-loop
     public void printArray(int[] arr){
         for(int i=0; i< arr.length; i++){
             arr[i]++;
