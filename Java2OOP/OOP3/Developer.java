@@ -6,6 +6,10 @@ public class Developer{
     private int happiness;
     private int health;
     private double salary;
+    private static int devCount;
+    private static double totalSalary;
+    private static int totalLanguages;
+
 
     // 2. constructors
     public Developer(){ // zero-argument constructor
@@ -14,15 +18,19 @@ public class Developer{
         this.happiness = 10;
         this.health = 10;
         this.salary = 100000;
+        devCount++;
+        totalSalary += this.salary;
     }
 
 
     public Developer(String name){
         this.name= name;
-        this.languages = new ArrayList<String>();
+        this.languages = new ArrayList<String>(); 
         this.happiness = 11;
         this.health = 9;
         this.salary = 120000;
+        devCount++;
+        totalSalary += this.salary;
     }
 
 
@@ -32,6 +40,8 @@ public class Developer{
         this.health = health;
         this.happiness = happiness;
         this.salary = salary;
+        devCount++;
+        totalSalary += this.salary;
     }
 
 
@@ -78,6 +88,19 @@ public class Developer{
         this.salary = salary;
     }    
 
+    public static int getDevCount(){
+        return devCount;
+    }
+
+    public static void setDevCount(int devCount){
+        Developer.devCount = devCount;
+    }
+
+    public static double getTotalSalary(){
+        return totalSalary;
+    }
+
+
 // 4 other methods
     public void addLanguage(String language){
         this.languages.add(language);
@@ -98,4 +121,13 @@ public class Developer{
         System.out.println(this.name + " is coding.... less health... more happiness");
         return this;
     }
+
+    public Developer raiseSalary(double raise){
+        this.salary += raise;
+        totalSalary += raise;
+        System.out.println("Raising salary for "+this.name);
+        return this;
+    }
+
+    
 }
