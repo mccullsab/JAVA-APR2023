@@ -7,10 +7,12 @@
 ## Eclipse Shortcut
 | Windows | Mac    | Functions |
 |----------------- | -----------------| --------------|
-|                  | Command + Option+ S| Source to create getter/setter|
+| Alt + Shift S  | Command + Option+ S| Open Source to create getter/setter|
 | Ctrl + Shift+ O  | Command + Shift +O | Autoimport |
-| 
-
+| Ctrl + Shift + T | Command + Shift + T| Open / Search for types, very useful in finding classes|
+| Alt + up/down | Option + up/down | Move the line up / down |
+| Ctrl + Shift + F| Command + Shift + F | Auto-format | 
+|Alt + Shift + R|Command + Option + R|Rename of package, class etc|
 
 
 
