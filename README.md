@@ -4,6 +4,16 @@
 1. Clone the repo to your computer
 2. Pull the repo when you want to get the latest update of the code
 
+## Eclipse Shortcut
+| Windows | Mac    | Functions |
+|----------------- | -----------------| --------------|
+|                  | Command + Option+ S| Source to create getter/setter|
+| Ctrl + Shift+ O  | Command + Shift +O | Autoimport |
+| 
+
+
+
+
 ## Extra Resources
 1. W1D1: [Listing all methods in a class](#fundamentals--listing-all-the-methods-in-a-class)
 2. W1D1: [Using .map in Java](#fundamentals--map-in-java)

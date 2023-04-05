@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author heidi
+ *
+ */
+module InheritanceDemo {
+}
