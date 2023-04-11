@@ -13,6 +13,7 @@ import jakarta.persistence.PrePersist;
 import jakarta.persistence.PreUpdate;
 import jakarta.persistence.Table;
 import jakarta.validation.constraints.Min;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Size;
 
@@ -30,8 +31,8 @@ public class Donation {
     @Size(min = 2)
     private String donationName;
     
-    @NotNull
-    @Size(min = 2, message="Description must be at least 2 character")
+    @NotBlank
+    @Size(min = 2, message="Donor must be at least 2 character")
     private String donor;
     
     @NotNull
