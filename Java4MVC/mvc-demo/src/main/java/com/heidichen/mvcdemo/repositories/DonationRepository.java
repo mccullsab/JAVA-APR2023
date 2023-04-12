@@ -11,4 +11,5 @@ import com.heidichen.mvcdemo.models.Donation;
 public interface DonationRepository extends CrudRepository<Donation, Long> {
 	List<Donation> findAll();
 	
+	
 }

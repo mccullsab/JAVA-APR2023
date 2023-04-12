@@ -44,6 +44,14 @@ public class APIController {
 		return donationService.createDonation(newDonation);
 	}
 
+	@PostMapping("/donations2") 
+	public Donation addDonation2(
+			@Valid @ModelAttribute("newDonation") Donation newDonation, BindingResult result
+			) {
+		return donationService.createDonation(newDonation);
+		// Donation newDonation = new Donation();
+		// newDonation.setDonationName(donationName)
+	}
 	
 	@GetMapping("/donations/{id}")
 	public Donation oneDonation(@PathVariable("id")Long id) {
@@ -67,6 +75,15 @@ public class APIController {
 		return donationService.updateDonation(oneDonation);
 	}
 	
+	@PutMapping("/donations2/{id}")
+	public Donation editDonation2(
+			@PathVariable("id")Long id,
+			@Valid @ModelAttribute("oneDonation") Donation oneDonation, BindingResult result
+			) {
+		return donationService.updateDonation(oneDonation);
+	}
+	
+	
 	// Delete
 	@DeleteMapping("/donations/{id}")
 	public void deleteDonation(@PathVariable("id")Long id) {
@@ -75,22 +92,7 @@ public class APIController {
 	
 	
 	
-	@PostMapping("/donations2") // post: /api/donations -- create
-	public Donation addDonation2(
-			@Valid @ModelAttribute("newDonation") Donation newDonation, BindingResult result
-			) {
-		return donationService.createDonation(newDonation);
-		// Donation newDonation = new Donation();
-		// newDonation.setDonationName(donationName)
-	}
 	
-	@PutMapping("/donations2/{id}")
-	public Donation editDonation2(
-			@PathVariable("id")Long id,
-			@Valid @ModelAttribute("oneDonation") Donation oneDonation, BindingResult result
-			) {
-		return donationService.updateDonation(oneDonation);
-	}
 	
 	
 }
