@@ -7,7 +7,7 @@
 # Full Spring notes (After logreg is done)
 ## Project Setup
 #### Models: 
-- Create the one-to-many relationship between User & Donation (Check platform / [1:n readme](../tree/main/Java4MVC#2-models) / Dojos & Ninjas assignment)
+- Create the one-to-many relationship between User & Donation (Check platform / [1:n readme](/tree/main/Java4MVC#2-models) / Dojos & Ninjas assignment)
 
 ## Create 
 - As the donor is the logged in user, NO DROPDOWN MENU and hence.. no userList.
