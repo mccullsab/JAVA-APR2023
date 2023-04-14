@@ -12,11 +12,14 @@
 ## Create 
 - As the donor is the logged in user, NO DROPDOWN MENU and hence.. no userList.
 - Make sure you attach the userId from session to create the 1:n in Donation (can be done in form:hidden for the hidden input OR in controller)
+```html
+    <form:hidden name="donor" value="${userId}">
+```
 
 ## Dashboard 
 - The dashboard will look like fruity loops 
 - Donor is a User object. To display the userName, need to get it from the donor object
-- Refer to one-to-many readme
+- Refer to [one-to-many readme](/Java4MVC#5-controllers--views)
 
 ## FindOne 
 - get id from path variables
