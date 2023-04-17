@@ -52,9 +52,10 @@
 
 ### Requirements & Details
 1. completed & submitted 90% of core assignments (10/11)
-2. Offical exam day: Week 3 Day 3. (No algo on that day)
-3. If you are taking the exam on other dates, you have to attend the algo session first. 
-3. Last day of exam: Week 4 Day 3 (Next Wednesday)
+2. Finished at least 1 code review
+3. Offical exam day: Week 3 Day 3. (No algo on that day)
+4. If you are taking the exam on other dates, you have to attend the algo session first. 
+5. Last day of exam: Week 4 Day 3 (Next Wednesday)
 
 ### NO CHEATING 
 1. Zero-tolerance in cheating. *Students who are found cheating will be expelled from the program immediately*
