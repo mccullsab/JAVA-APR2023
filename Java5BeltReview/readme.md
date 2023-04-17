@@ -60,7 +60,8 @@
 ### NO CHEATING 
 1. Zero-tolerance in cheating. *Students who are found cheating will be expelled from the program immediately*
 2. DO NOT find exam on Google/Github 
-3. DO NOT communicate with your cohort during the exam
+3. DO NOT use AI tools to complete the task (No Tabnine, Github copilot or ChatGPT)
+4. DO NOT communicate with your cohort during the exam
 
 ### Available Resources
 1. Your own code
