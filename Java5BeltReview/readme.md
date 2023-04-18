@@ -77,7 +77,7 @@
 ### During the exam
 2. Exam code will be given in the preparation room
 2. Stay in your own room on Zoom by yourself
-3. If you want to ask for help/grading, send a message on our discord channel and tag @dojo_Heidi_Chen, @dojo_David_Moore
+3. If you want to ask for help/grading, send a message on our discord channel and tag both me and our TA. 
 
 ### Getting graded
 1. Live grading
