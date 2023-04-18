@@ -23,14 +23,14 @@
 
     #### **Mac/Linux**
     - to getting the background process and find the PID
-    ```lsof -i:8000 ```
+    ```lsof -i:8080 ```
 
     - To kill the PID
     ```kill -9 <PID> ```
 
     #### **Windows**
     - to getting the background process and find the PID
-    ```netstat -ano | findstr :8000```
+    ```netstat -ano | findstr :8080```
     - To kill the PID
     ```taskkill /PID <PID> /F ```
 
